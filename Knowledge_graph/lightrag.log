@@ -32,3 +32,12 @@
 2024-12-28 17:37:47,074 - lightrag - INFO - kw_prompt result:
 2024-12-28 17:38:05,995 - lightrag - INFO - Local query uses 52 entites, 45 relations, 1 text units
 2024-12-28 17:38:10,605 - lightrag - INFO - Global query uses 50 entites, 60 relations, 1 text units
+2025-02-14 14:57:47,841 - lightrag - INFO - Logger initialized for working directory: ./test
+2025-02-14 14:57:47,859 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-02-14 14:57:47,859 - lightrag - INFO - Load KV full_docs with 0 data
+2025-02-14 14:57:47,871 - lightrag - INFO - Load KV text_chunks with 10 data
+2025-02-14 14:57:47,913 - lightrag - INFO - Loaded graph from ./test\graph_chunk_entity_relation.graphml with 113 nodes, 79 edges
+2025-02-14 14:57:50,229 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-02-14 14:58:19,650 - lightrag - INFO - Inserting 46 vectors to entities
+2025-02-14 14:58:24,494 - lightrag - INFO - Inserting 55 vectors to relationships
+2025-02-14 14:58:34,664 - lightrag - INFO - Writing graph with 131 nodes, 105 edges

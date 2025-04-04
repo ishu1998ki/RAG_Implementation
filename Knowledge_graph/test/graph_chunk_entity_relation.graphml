@@ -573,6 +573,96 @@
       <data key="d1">UNKNOWN</data>
       <data key="d0">UNKNOWN</data>
     </node>
+    <node id="&quot; FREE-TOWN&quot;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </node>
+    <node id="&quot;PROJECT GUTENBERG EBOOK&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;CAPULET’S HOUSE&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;FRIAR LAWRENCE’S CELL&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;CAPULET’S GARDEN&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;MONTAGUE FAMILY&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;CAPULET FAMILY&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;FRANCISCAN ORDER&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;MONTAGUE’S MEN&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;MONTAGUE’S MAIDS&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;A GOOD MAN&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;QUARREL&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;CAPULETS AND MONTAGUES&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;IN THE FIGHT BETWEEN CAPULETS AND MONTAGUES&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;ANCIENT CITIZENS&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;STREETS&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;FREE-TOWN&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
+    <node id="&quot;THE FIGHT BETWEEN MONTAGUE AND CAPULET FAMILIES&quot;">
+      <data key="d2">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d0">UNKNOWN</data>
+    </node>
     <edge source="&quot;UNITED STATES&quot;" target="&quot;PROJECT GUTENBERG&quot;">
       <data key="d3">1.0</data>
       <data key="d4">located in</data>
@@ -605,7 +695,7 @@
     </edge>
     <edge source="&quot;ROMEO&quot;" target="&quot;MERCUTIO&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is friend to</data>
+      <data key="d4">is a friend to</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -627,6 +717,18 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;ROMEO&quot;" target="&quot;CAPULET’S GARDEN&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">visits</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;ROMEO&quot;" target="&quot;MONTAGUE FAMILY&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is a member of the</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;ESCALUS&quot;" target="&quot;PRINCE OF VERONA&quot;">
       <data key="d3">1.0</data>
       <data key="d4">is</data>
@@ -639,9 +741,15 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;ESCALUS&quot;" target="&quot;VERONA&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is the Prince of</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;VERONA&quot;" target="&quot;CHORUS&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is located in</data>
+      <data key="d4">introduces</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -653,7 +761,7 @@
     </edge>
     <edge source="&quot;VERONA&quot;" target="&quot;THE PLAY&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is the location of</data>
+      <data key="d4">is setting for</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -669,9 +777,39 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;VERONA&quot;" target="&quot;MANTUA&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is related to</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;VERONA&quot;" target="&quot;ANCIENT CITIZENS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">has citizens</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;VERONA&quot;" target="&quot;STREETS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">has streets</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;VERONA&quot;" target="&quot;PRINCE&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">rules over</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;VERONA&quot;" target="&quot;FREE-TOWN&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is the judgement-place of</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;SAMPSON&quot;" target="&quot;GREGORY&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is with</data>
+      <data key="d4">supports</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -711,6 +849,36 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;SAMPSON&quot;" target="&quot;MONTAGUE’S MEN&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">will confront</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;SAMPSON&quot;" target="&quot;MONTAGUE’S MAIDS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">will challenge</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;SAMPSON&quot;" target="&quot;CAPULETS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is a servant of</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;SAMPSON&quot;" target="&quot;MONTAGUES&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">quarrels with</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;SAMPSON&quot;" target="&quot;A GOOD MAN&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">serves</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;GREGORY&quot;" target="&quot;CAPULET&quot;">
       <data key="d3">1.0</data>
       <data key="d4">is a servant of</data>
@@ -729,9 +897,15 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;GREGORY&quot;" target="&quot;CAPULETS&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is a servant of</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;TYBALT&quot;" target="&quot;LADY CAPULET&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is the aunt of</data>
+      <data key="d4">is the nephew of</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -783,15 +957,21 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;PRINCE&quot;" target="&quot;THE FIGHT BETWEEN MONTAGUE AND CAPULET FAMILIES&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">parted</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;MONTAGUE&quot;" target="&quot;CAPULET&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is the adversary of</data>
+      <data key="d4">has brawls with</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
     <edge source="&quot;MONTAGUE&quot;" target="&quot;LADY MONTAGUE&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">accompanies</data>
+      <data key="d4">is the wife of</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -833,13 +1013,19 @@
     </edge>
     <edge source="&quot;ROMEO AND JULIET&quot;" target="&quot;PG SHAKESPEARE TEAM&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">contributed to</data>
+      <data key="d4">credited for</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
     <edge source="&quot;ROMEO AND JULIET&quot;" target="&quot;FRIAR LAWRENCE&quot;">
       <data key="d3">1.0</data>
       <data key="d4">is advisor to</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;ROMEO AND JULIET&quot;" target="&quot;PROJECT GUTENBERG EBOOK&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">includes</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -863,7 +1049,7 @@
     </edge>
     <edge source="&quot;JULIET&quot;" target="&quot;CAPULET&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is daughter of</data>
+      <data key="d4">father of</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -876,6 +1062,18 @@
     <edge source="&quot;JULIET&quot;" target="&quot;NURSE&quot;">
       <data key="d3">1.0</data>
       <data key="d4">has nurse</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;JULIET&quot;" target="&quot;CAPULET’S HOUSE&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">lives in</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;JULIET&quot;" target="&quot;CAPULET FAMILY&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is a member of the</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -897,9 +1095,21 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;FRIAR LAWRENCE&quot;" target="&quot;FRIAR LAWRENCE’S CELL&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">lives in</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;FRIAR LAWRENCE&quot;" target="&quot;FRANCISCAN ORDER&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is a member of the</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;MANTUA&quot;" target="&quot;ROMEO LIVES&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">is a city where</data>
+      <data key="d4">city where</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -929,13 +1139,25 @@
     </edge>
     <edge source="&quot;CAPULET&quot;" target="&quot;LADY CAPULET&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">accompanies</data>
+      <data key="d4">is the wife of</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
     <edge source="&quot;MONTAGUES&quot;" target="&quot;CAPULETS&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">are in feud with</data>
+      <data key="d4">are in a feud with the</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;MONTAGUES&quot;" target="&quot;ABRAM&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is a servant of</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;MONTAGUES&quot;" target="&quot;BALTHASAR&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">is a servant of</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -953,7 +1175,7 @@
     </edge>
     <edge source="&quot;BENVOLIO&quot;" target="&quot;SAMPSON, GREGORY, AND ABRAM&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">interrupts fight between</data>
+      <data key="d4">stops fight between</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -971,7 +1193,7 @@
     </edge>
     <edge source="&quot;BENVOLIO&quot;" target="&quot;AMONG CITIZENS&quot;">
       <data key="d3">1.0</data>
-      <data key="d4">keeps peace</data>
+      <data key="d4">keeps the peace</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
@@ -994,6 +1216,12 @@
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
     <edge source="&quot;ABRAM&quot;" target="&quot;QUARREL WITH SAMPSON&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">denies</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;ABRAM&quot;" target="&quot;QUARREL&quot;">
       <data key="d3">1.0</data>
       <data key="d4">denies</data>
       <data key="d5" />
@@ -1023,9 +1251,27 @@
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>
+    <edge source="&quot;CITIZENS&quot;" target="&quot;CAPULETS AND MONTAGUES&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">oppose</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
     <edge source="&quot;PRINCE ESCALUS&quot;" target="&quot;ATTENDANTS&quot;">
       <data key="d3">1.0</data>
       <data key="d4">arrives with</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;PRINCE ESCALUS&quot;" target="&quot;IN THE FIGHT BETWEEN CAPULETS AND MONTAGUES&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">intervenes</data>
+      <data key="d5" />
+      <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
+    </edge>
+    <edge source="&quot;CAPULET AND MONTAGUE&quot;" target="&quot;FREE-TOWN&quot;">
+      <data key="d3">1.0</data>
+      <data key="d4">are summoned to</data>
       <data key="d5" />
       <data key="d6">chunk-19c46c08a0a5584f37306ba3999d312c</data>
     </edge>

@@ -28,7 +28,7 @@ chain = prompt_template | model | StrOutputParser() | uppercase_output | count_w
 # chain = prompt_template | model
 
 # Run the chain
-result = chain.invoke({"topic":"education","advice_count":3})
+result = chain.invoke({"topic":"English speaking","advice_count":3})
 
 # Output
 print(result)

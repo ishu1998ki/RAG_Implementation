@@ -3,7 +3,7 @@ import json
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
-from pydantic import BaseModel,Field
+from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
@@ -12,7 +12,7 @@ load_dotenv()
 
 # OpenAI api define
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-model = ChatOpenAI(model="gpt-4o",base_url=os.getenv("base_url"))
+model = ChatOpenAI(model="gpt-4o", base_url=os.getenv("base_url"))
 
 # Groq api define
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
@@ -22,7 +22,7 @@ llm = ChatGroq(model="llama-3.3-70b-versatile")
 file_path = os.path.join("./books", "romeo_and_juliet_copy.txt")
 # print(file_path)
 
-loader = TextLoader(file_path,encoding='UTF-8')
+loader = TextLoader(file_path, encoding='UTF-8')
 documents = loader.load()
 
 rec_char_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
@@ -30,13 +30,14 @@ rec_char_docs = rec_char_splitter.split_documents(documents)
 
 rec_char_docs = rec_char_docs[:10]
 
+
 # for index, char in enumerate(rec_char_docs):
 #     if index == 0:  # Check if it's the first item
 #         print(char)  # Print the first item
 #         break
 
 
-# Pydatntic class definition
+# Pydantic class definition
 # class for named_entity definition
 class EntityExtraction(BaseModel):
     entities: str = Field(description="all the entities in a provided content")
@@ -125,44 +126,40 @@ def entities_out():
 
     # print(relationship_output)
 
-
-    formated_entities=[]
+    formated_entities = []
 
     for entity in entities_output:
         for _ in entity.entities.split(","):
-            ent = {"entity_name":_,
-                   "entity_type":"",
-                   "description":"",
-                   "source_id":""
+            ent = {"entity_name": _,
+                   "entity_type": "",
+                   "description": "",
+                   "source_id": ""
                    }
             formated_entities.append(ent)
 
-
-    formated_relationship=[]
+    formated_relationship = []
 
     for relationship in relationship_output:
         for _ in relationship.relationship:
-            relation = {"src_id":_.Subject,
-                        "tgt_id":_.Object,
-                        "description":_.Predicate,
-                        "keywords":"",
-                        "weight":1.0,
-                        "source_id":""
+            relation = {"src_id": _.Subject,
+                        "tgt_id": _.Object,
+                        "description": _.Predicate,
+                        "keywords": "",
+                        "weight": 1.0,
+                        "source_id": ""
                         }
             formated_relationship.append(relation)
-
 
     formated_chunks = []
     for chunk in rec_char_docs:
         _ch = {
-            "content":chunk.page_content,
-            "source_id":""
+            "content": chunk.page_content,
+            "source_id": ""
         }
         formated_chunks.append(_ch)
 
-
-    custom_kg = {"entities":formated_entities,
-                 "relationships":formated_relationship,
-                 "chunks":formated_chunks}
+    custom_kg = {"entities": formated_entities,
+                 "relationships": formated_relationship,
+                 "chunks": formated_chunks}
     print(custom_kg)
     return custom_kg
